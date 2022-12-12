@@ -3,7 +3,7 @@
   --darker: #1F2937;
   --darkest: #111827;
   --gray: #6B7280;
-  --light: #EEE;
+  --light: #eeeeee;
   --pink: #EC4899;
   --purple: #8B5Cf6;
 }
@@ -15,7 +15,7 @@
 }
 
 .mb-5 h1 {
-  font-size: 30px;
+  font-size: 35px;
   display: flex;
   justify-content: center;
 }
@@ -53,6 +53,18 @@ input, button {
   background: none;
 }
 
+div .border-primary {
+  padding: 1rem;
+}
+
+div .border-primary h2 {
+  font-size: 1.3rem;
+  font-weight: 300;
+  font-style: normal;
+  color: var(--light);
+  margin-bottom: 1rem;
+}
+
 div .form-control{
   flex: 1 1 0%;
   background-color: var(--darker);
@@ -63,8 +75,10 @@ div .form-control{
   font-size: 1.25rem;
 }
 
-div .form-control ::placeholder {
+div .form-control::placeholder {
   color: var(--gray);
+  font-size: 20px;
+  font-style: oblique;
 }
 
 div .btn-success {
@@ -98,7 +112,7 @@ div .border-info {
 }
 
 div .border-info h3 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 300;
   color: var(--gray);
   margin-bottom: 1rem;
@@ -111,4 +125,88 @@ div .card-body {
   padding: 1rem;
   border-radius: 1rem;
   margin-bottom: 1rem;
+}
+
+div .card-body .row .col-9 {
+  color: var(--light);
+  font-size: 0.6rem;
+  width: 100%;
+  display: block;
+  transition: 0.4s;
+  padding-bottom: 0.7rem;
+}
+
+/* div .card-body .row .col-9 {
+padding: 1rem;
+} */
+
+/* div .card-body .row .col-9:not(:read-only) {
+  color: var(--pink);
+} */
+
+div .card-body .col-3 {
+  display: flex;
+  margin: 0 -0.5rem;
+}
+
+div .btn-info {
+  color:#6B7280;
+  cursor: pointer;
+  margin: 0 0.5rem;
+  font-size: 0.83rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.4s;
+}
+
+div .btn-info:hover {
+  opacity: 0.8;
+}
+
+div .btn-info:active {
+  opacity: 0.6;
+}
+
+div .btn-warning {
+  cursor: pointer;
+  margin: 0 0.5rem;
+  font-size: 0.83rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.4s;
+}
+
+div .btn-warning {
+background-image: linear-gradient(to right, var(--pink),var(--purple));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+div .btn-warning:hover {
+opacity: 0.8;
+}
+
+div .btn-warning:active {
+opacity: 0.6;
+}
+
+div .btn-danger {
+cursor: pointer;
+margin: 0 0.5rem;
+font-size: 0.83rem;
+font-weight: 700;
+text-transform: uppercase;
+transition: 0.4s;
+}
+
+div .btn-danger {
+color: crimson; 
+}
+
+div .btn-danger:hover {
+opacity: 0.8;
+}
+
+div .btn-danger:active {
+opacity: 0.6;
 }
