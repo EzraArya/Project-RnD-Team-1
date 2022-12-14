@@ -327,3 +327,7 @@ main {
 .task .actions .delete {
 	color: crimson;
 }
+
+.task .actions .duplicate {
+	color: rgb(188, 239, 35);
+}
