@@ -46,7 +46,7 @@ window.addEventListener('load', () => {
 		task_el.appendChild(task_actions_el);
 		list_el.appendChild(task_el);
 
-		input.value = '';
+		
 
 		task_edit_el.addEventListener('click', (e) => {
 			if (task_edit_el.innerText.toLowerCase() == "edit") {
@@ -104,7 +104,7 @@ window.addEventListener('load', () => {
 		task_el.appendChild(task_actions_el);
 		list_el.appendChild(task_el);
 
-		input.value = '';
+		
 
 		task_edit_el.addEventListener('click', (e) => {
 			if (task_edit_el.innerText.toLowerCase() == "edit") {
