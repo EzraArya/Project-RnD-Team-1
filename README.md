@@ -24,8 +24,6 @@ dan mengedit to-do serta menginput to-do-list
 
 ## Preview
 
-```sh
-# TODO!
-```
+![](https://github.com/EzraArya/Project-RnD-Team-1/blob/main/preview.gif)
 
 </div>
